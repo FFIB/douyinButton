@@ -10,11 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let button = DYButton(frame: CGRect.init(x: 100, y: 100, width: 100, height: 100))
+    var clickCount = 0
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        view.backgroundColor = UIColor.darkGray
+        view.addSubview(button)
     }
-
-
 }
 

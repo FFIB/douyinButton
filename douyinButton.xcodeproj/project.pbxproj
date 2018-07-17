@@ -12,6 +12,7 @@
 		054907B620FC829600351BCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 054907B420FC829600351BCD /* Main.storyboard */; };
 		054907B820FC829A00351BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 054907B720FC829A00351BCD /* Assets.xcassets */; };
 		054907BB20FC829A00351BCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 054907B920FC829A00351BCD /* LaunchScreen.storyboard */; };
+		054907C320FC82C600351BCD /* DYButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054907C220FC82C600351BCD /* DYButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		054907B720FC829A00351BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		054907BA20FC829A00351BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		054907BC20FC829A00351BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		054907C220FC82C600351BCD /* DYButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				054907B020FC829600351BCD /* AppDelegate.swift */,
 				054907B220FC829600351BCD /* ViewController.swift */,
+				054907C220FC82C600351BCD /* DYButton.swift */,
 				054907B420FC829600351BCD /* Main.storyboard */,
 				054907B720FC829A00351BCD /* Assets.xcassets */,
 				054907B920FC829A00351BCD /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				054907B320FC829600351BCD /* ViewController.swift in Sources */,
 				054907B120FC829600351BCD /* AppDelegate.swift in Sources */,
+				054907C320FC82C600351BCD /* DYButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q38447SL4M;
 				INFOPLIST_FILE = douyinButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q38447SL4M;
 				INFOPLIST_FILE = douyinButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
