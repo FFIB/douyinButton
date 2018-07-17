@@ -220,6 +220,7 @@ class DYButton: UIButton {
             animationLayer.removeFromSuperlayer()
             animationLayer.removeAllAnimations()
         }
+        animationLayers.removeAll()
     }
 }
 
